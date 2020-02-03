@@ -1,6 +1,6 @@
 ## Nomad Code Check Example
 
-This is an example app repository for showcasing how nomad-codecheck is used. For nomad-codecheck, visit it's repository: https://ship.nomadinteractive.co/nomad-interactive/nomad-codecheck
+This is an example app repository for showcasing how nomad-codecheck is used. For nomad-codecheck, visit it's repository: https://github.com/nomadinteractive/nomad-codecheck
 
 To install
 
@@ -10,6 +10,10 @@ To Run
 
 ```npm run check```
 
-To test local nomad-codecheck working copy as dependency, update package.json with ```file:../nomad-codecheck``` dependency url instead of ```git+ssh://git@ship.nomadinteractive.co:nomad-interactive/nomad-codecheck.git``` and npm install:
+## Developing a new rule in nomad-codecheck working copy and using this example with local copy as package dependency:
+
+To test local nomad-codecheck working copy as dependency, update package.json with the file location like:
 
 ```"nomad-codecheck": "file:../nomad-codecheck"```
+
+then `npm install` (Unfortunately an npm install is needed every time changing codecheck repository).
