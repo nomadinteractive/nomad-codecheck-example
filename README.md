@@ -17,3 +17,7 @@ To test local nomad-codecheck working copy as dependency, update package.json wi
 ```"nomad-codecheck": "file:../nomad-codecheck"```
 
 then `npm install` (Unfortunately an npm install is needed every time changing codecheck repository).
+
+## License
+
+[MIT](LICENSE.md)
